@@ -1,0 +1,39 @@
+# Ignore Python virtual environment
+genai-env/
+
+# Ignore environment variable files
+.env
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VS Code workspace settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Log and debug files
+*.log
+
+# Unit test and coverage outputs
+.pytest_cache/
+.coverage
+htmlcov/
+
+# MyPy and other type checking
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# Packaging artifacts
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Jupyter Notebook checkpoints (if you use notebooks later)
+.ipynb_checkpoints/
